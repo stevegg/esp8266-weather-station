@@ -1,0 +1,9 @@
+GND  -> GND
+VIN  -> 3.3v
+D/C  -> GPIO 4
+RST  -> NC
+SDCS -> NC
+CS   -> GPIO 5
+MOSI -> MO (GPIO 13)
+MISO -> MI (GPIO 12)
+SCK  -> SCK (GPIO 14)
