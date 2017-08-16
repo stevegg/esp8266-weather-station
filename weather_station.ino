@@ -271,9 +271,9 @@ void drawForecastDetail(uint16_t x, uint16_t y, uint8_t dayIndex) {
 // draws the three forecast columns
 void displayForecast() {
   tft.fillRect(0, FORECAST_VERTICAL_POSITION, tft.width(), FORECAST_VERTICAL_POSITION + 65 + 10, BLACK);
-  drawForecastDetail(10, FORECAST_VERTICAL_POSITION, 2);
-  drawForecastDetail(95, FORECAST_VERTICAL_POSITION, 4);
-  drawForecastDetail(180, FORECAST_VERTICAL_POSITION, 6);
+  drawForecastDetail(10, FORECAST_VERTICAL_POSITION, 0);
+  drawForecastDetail(95, FORECAST_VERTICAL_POSITION, 2);
+  drawForecastDetail(180, FORECAST_VERTICAL_POSITION, 4);
 }
 
 
